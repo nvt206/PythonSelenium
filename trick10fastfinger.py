@@ -1,7 +1,7 @@
 from selenium import webdriver  # import cái webdriver về
 from selenium.webdriver.common.keys import Keys  # import Keys để gửi các kí tự lên web
 import time  # time để spleep đợi load web
-
+#mychange
 PATH = "C:\Program Files (x86)\chromedriver.exe"  # cái path này là vô chorme download chormedriver theo đúng phiên bản rồi vứt vô Files x86
 driver = webdriver.Chrome(PATH)  # to chrome
 driver.get("https://10fastfingers.com/typing-test/vietnamese")  # get cái link
